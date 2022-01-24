@@ -3,22 +3,9 @@ This is a maze generation implementation for Golang. It implements the growing t
 
 PrintConsole is only tested on Macbook terminal. It uses underlining so i could be that it does not work correctly in other terminals.
 
-This is a result:
+The result is 2D array with ints for example:
 
-![Example](example.png)
-
-The result is 2D array with ints:
-
-[1 13 9 9 25 9 1 17 5 5]
-[9 3 17 5 5 17 5 5 9 19]
-[3 1 5 17 5 17 9 17 3 1]
-[19 5 5 5 3 13 3 17 3 5]
-[9 9 17 1 9 17 1 17 9 3]
-[17 5 5 3 3 17 3 5 19 5]
-[17 1 5 7 3 17 9 17 17 3]
-[9 9 17 3 3 9 3 17 1 3]
-[17 5 9 19 3 9 1 9 17 3]
-[1 3 5 5 3 3 5 5 13 3]
+![ExampleSmall](exampleSmall.png)
 
 You can use this flags to find out the directions of a cell with bit wise and operation
 
@@ -41,3 +28,9 @@ if grid[y][x] & R == R {
 //and so on
 
 ```
+
+
+This is a result:
+
+![Example](example.png)
+
