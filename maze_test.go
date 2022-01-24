@@ -1,6 +1,7 @@
 package maze
 
 import (
+	"fmt"
 	"testing"
 )
 
@@ -15,7 +16,11 @@ func TestGenerationSizeOfResult(t *testing.T) {
 		t.Fatal("height is not correct")
 	}
 
+	fmt.Println(grid)
+
 	for i := 0; i < len(grid); i++ {
+		fmt.Println(grid[i])
+
 		if len(grid[i]) != w {
 			t.Fatal("some width of grid not correct")
 		}

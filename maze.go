@@ -13,10 +13,10 @@ type vec struct {
 }
 
 const (
-	U = 2
-	L = 4
-	R = 8
-	D = 16
+	U = 2  //Up
+	L = 4  //Left
+	R = 8  //Right
+	D = 16 //Down
 )
 
 var dir = []vec{
