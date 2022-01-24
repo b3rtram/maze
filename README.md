@@ -5,7 +5,7 @@ PrintConsole is only tested on Macbook terminal. It uses underlining so i could 
 
 The result is 2D array with ints for example:
 
-![ExampleSmall](exampleSmall.png)
+<img src="exampleSmall.png" width="200">
 
 You can use this flags to find out the directions of a cell with bit wise and operation
 
